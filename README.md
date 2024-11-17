@@ -1,4 +1,4 @@
-# Document Management System - Implemented methods
+# Implemented methods
 
 
 ### 1. `save` Method
@@ -38,7 +38,7 @@ The following data classes are used in the system:
 - **`Author`**: Represents the author of a document.
   
 
-# Document Management System - Implemented test cases
+# Implemented test cases
 
 ### 1. `testSaveNewDocument`
 - **Objective**: Tests saving a new document.
