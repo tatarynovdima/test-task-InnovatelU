@@ -1,10 +1,5 @@
-Implemented methods
+# Document Management System - Implemented methods
 
-# Document Management System
-
-This document management system provides functionality for saving, searching, and retrieving documents. It allows for efficient filtering based on various criteria and utilizes in-memory storage using `ConcurrentHashMap`.
-
-## Features
 
 ### 1. `save` Method
 - **Functionality**: Saves a new document or updates an existing one.
@@ -51,14 +46,7 @@ All these classes are implemented as simple POJOs with Lombok annotations (`@Dat
 - **Efficient Retrieval**: The `findById` method ensures easy retrieval of documents by their ID.
 
 
-
-Implemented test
-
-# Document Management System - Test Cases
-
-These are the test cases implemented for the Document Management System to ensure that each feature works as expected.
-
-## Test Cases
+# Document Management System - Implemented test cases
 
 ### 1. `testSaveNewDocument`
 - **Objective**: Tests saving a new document.
