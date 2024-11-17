@@ -37,14 +37,6 @@ The following data classes are used in the system:
 - **`SearchRequest`**: Contains the search criteria used to filter documents.
 - **`Author`**: Represents the author of a document.
   
-All these classes are implemented as simple POJOs with Lombok annotations (`@Data`, `@Builder`) to automatically generate getters, setters, and builders, making the code more concise and readable.
-
-## Summary of the Approach
-- **In-memory Storage**: A `ConcurrentHashMap` is used to store documents, ensuring efficient lookups and updates.
-- **Flexible Search**: The `search` method allows flexible filtering based on title, content, author, and creation date.
-- **Document Handling**: The `save` method supports both creation and updating of documents, preserving the original creation timestamp when applicable.
-- **Efficient Retrieval**: The `findById` method ensures easy retrieval of documents by their ID.
-
 
 # Document Management System - Implemented test cases
 
