@@ -1,7 +1,7 @@
 Implemented methods
 
 1. save Method:
-Functionality: This method either saves a new document or updates an existing one.
+**Functionality: This method either saves a new document or updates an existing one.
 ID Generation: If the document does not have an ID, a unique ID is generated using UUID.randomUUID().toString().
 Preservation of "created" field: If the document already exists, its created field (timestamp) is preserved. If it's a new document, the current timestamp (Instant.now()) is assigned to the created field.
 Storage: Documents are stored in an in-memory ConcurrentHashMap where the key is the document's ID.
